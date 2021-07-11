@@ -185,5 +185,13 @@ const getFirstVal = function (array) {
 //Q8 
 // the array values are unique, no duplicate values in the array
 const updateOrCreate = function (array, value, index) {
-  // TODO: Your code here
+  if ( array.indexOf(value) === -1 )
+  {  
+      array[index] = value ;
+      return array ;
+}
 };
+
+
+
+//Q9 

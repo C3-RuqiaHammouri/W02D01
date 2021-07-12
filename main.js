@@ -194,4 +194,19 @@ const updateOrCreate = function (array, value, index) {
 
 
 
-//Q9 
+//Q9 علي
+// slice => return anew array depend on the start and end value 
+// حسب رقم ال index 
+//تاع ال start , end 
+
+
+const sliceArray = function (array, startVal, endVal) {
+  if (array.indexOf(startVal))
+ { return array.slice(startVal)
+ }
+
+};
+sliceArray([10, 20, 30, 40, 50, 60], 10, 60); // => [10, 20, 30, 40, 50, 60]
+sliceArray([10, 20, 30, 40, 50, 60], 20, 40); // => [20, 30, 40]
+sliceArray([10, 20, 30, 40, 50, 60], 20, 20); // => []
+sliceArray([10, 20, 30, 40, 50, 60], 50, 20); // => []
